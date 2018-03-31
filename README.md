@@ -14,6 +14,7 @@ chap07のコードは、Windows環境ではfastFMの導入ができないため�
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 (venv)$ pip install -r requirements.txt -c constraints.txt
+pip install statsmodels
 ```
 
 ## fastFMのインストールについて
