@@ -19,7 +19,7 @@ for category_id in category_list:
             response_json = json.loads(urllib.request.urlopen(query).read().decode("utf-8"))
         except:
             break
-
+        #lenで全体数を取得
         if len(response_json["projects"]) == 0:
             break
 
